@@ -9,7 +9,11 @@ public class Gui extends Thread{
         int a = s.nextInt();
         List<Thread> threads = new ArrayList<>();
         for(int i = 0; i < a; i++){
-            threads.
+            threads.add(new Gui());
         }
+
+    }
+    public void run(){
+        
     }
 }
